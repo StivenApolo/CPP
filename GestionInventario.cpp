@@ -23,8 +23,8 @@ void guardarInventario(Producto productos[], int n);
 void cargarInventario(Producto productos[], int &n);
 
 int main() {
-    Producto productos[100];
-    int n = 0;
+    Producto productos[100]; // Inventario de productos
+    int n = 0; // Cantidad de productos en el inventario
     int opcion;
 
     do {
@@ -96,7 +96,7 @@ void agregarProducto(Producto productos[], int &n) {
     cin >> productos[n].cantidad;
     cout << "Precio: ";
     cin >> productos[n].precio;
-    n++;
+    n++;// n++ == n=n+1
 }
 
 // Modificar un producto del inventario
@@ -182,8 +182,9 @@ void guardarInventario(Producto productos[], int n) {
 void cargarInventario(Producto productos[], int &n) {
     FILE *archivo = fopen("inventario.txt", "r");
 
-    while(!feof(archivo)) {
-        fscanf(archivo, "%s %d %f\n", productos[n].nombre.c_str(), &productos[n].cantidad, &productos[n].precio);
+    while(!feof(archivo)) { // Mientras no sea el final del archivo
+    //  feof que hace? = verifica si el puntero al archivo ha llegado al final del archivo
+        fscanf(archivo, "%s %d %f\n", productos[n].nombre.c_str(), &productos[n].cantidad, &productos[n].precio); // c_str() convierte un string a un array de caracteres
         n++;
     }
     fclose(archivo);
