@@ -41,6 +41,7 @@ float CalcularDesviacionEstandar(int v[], int tamano) {
 
     // Calcular la desviación estándar como la raíz cuadrada de la varianza
     float desviacion_estandar = sqrt(varianza);
+    // sqrt() es una función de la biblioteca cmath que calcula la raíz cuadrada
 
     return desviacion_estandar;
 }
