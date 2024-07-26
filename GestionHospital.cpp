@@ -2,7 +2,7 @@
 Desarrollado por: Brenda Romina Loaiza Vargas
 Fecha: 2024/07/21
 
-Problema Planteado
+Problema Planteado:
 Desarrolle un sistema de gestión para un hospital que administre información de pacientes, doctores y citas médicas. 
 El sistema debe permitir registrar, modificar, buscar, listar y eliminar pacientes y doctores, así como programar y 
 gestionar citas médicas. Además, debe ser capaz de guardar y cargar todos estos datos desde archivos.
