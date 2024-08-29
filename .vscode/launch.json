@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Administrador/Documents/stiven/4 Semestre(Segunda)/Algoritmos/CodesAlgoritmos",
-      "program": "c:/Users/Administrador/Documents/stiven/4 Semestre(Segunda)/Algoritmos/CodesAlgoritmos/build/Debug/outDebug",
+      "cwd": "c:/Users/Administrador/Documents/stiven/ProyectosGitHub/CodigosEnLinea/CodesAlgoritmos",
+      "program": "c:/Users/Administrador/Documents/stiven/ProyectosGitHub/CodigosEnLinea/CodesAlgoritmos/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
